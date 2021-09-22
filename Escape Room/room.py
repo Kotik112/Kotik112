@@ -13,6 +13,13 @@ class LivingRoom(Room):
         #Inget syfte, testar subclass variabel
         self.description = description
         
+class Bedroom(Room):
+    def __init__(self, bed, bathroom, drawer, table, tv):
+        self.bed = bed
+        self.bathroom = bathroom
+        self.drawer = drawer
+        self.table = table
+        self.tv = tv
 
     def __repr__(self) -> str:
         return f"Door: {self.door}\nWay out: {self.way_out}\nDescription: {self.description}"
