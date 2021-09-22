@@ -1,23 +1,31 @@
 # Contains all elements regarding Account object
 # -- Arman Iqbal
 
-from accountlogin import AccountLogin
 from transactionhistory import TransactionHistory
-#from atmfunctions import init_transaction_history
+from random import randint
 
 class Account:
-    def __init__(self, balance, account_login : AccountLogin, transaction_history : TransactionHistory) -> None:
+    def __init__(self, account_number, password, balance, transaction_history: TransactionHistory):        
+        self.account_number = account_number
+        self.password = password
         self.balance = balance
-        self.account_number = account_login.account_number
-        self.password = account_login.password
-        self.transaction_list = transaction_history.transaction_list
-        self.date_list = transaction_history.date_list
+        if transaction_history == None:
+            self.transaction_list = TransactionHistory(None, None)
+        else:
+            self.transaction_list = transaction_history
+
+    def __repr__(self):
+        return f"Account: {self.account_number}, {self.password}, {self.balance}, \n{self.transaction_list}"
+
+    def login(self, password) -> bool:
+        """Returns True/False depending on wether or not the login was successful."""
+        return self.password == password
+      
 
 def main():
-    pass
-    # history = init_transaction_history(500)
-    # test = Account(500, 123456, history)
-    # print(test)
+    #Testing Account object
+    test = Account(999999, 9999, 9999, TransactionHistory(None, None))
+    print(test)
 
 if __name__ == "__main__":
     main()    

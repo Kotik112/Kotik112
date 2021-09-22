@@ -1,13 +1,28 @@
 # Contains all elements regarding TransactionHistory object.
 # -- Arman Iqbal
 
-class TransactionHistory:
-    def __init__(self, transaction_list=[], date_list=[]) -> None:
-        self.transaction_list = transaction_list
-        self.date_list = date_list
+from datetime import date
 
-    def print_tran_history(self):
-        pass
-        #result_sets = set(zip(self.transaction_list, self.date_list))
-        #for values in result_sets:
-        #    print(values)
+class TransactionHistory:
+    """Transaction"""
+    def __init__(self, first_transaction, first_date):
+        if first_transaction != None and first_date != None:
+            self.transaction_list = [first_transaction]
+            self.date_list = [first_date]
+        else:
+            self.transaction_list = []
+            self.date_list = []
+
+    def transaction_count(self):
+        return len(self.transaction_list)
+    
+    def __repr__(self):
+        return f'Transactions: {self.transaction_list} / {self.date_list}'
+
+def main():
+    #Testing TransactionHistory
+    test = TransactionHistory(None, None)
+    print(test)
+
+if __name__ == "__main__":
+    main()
