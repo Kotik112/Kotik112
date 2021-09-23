@@ -20,13 +20,7 @@ class LivingRoom(Room):
         return f"Door: {self.door}\nWay out: {self.way_out}\nDescription: {self.description}"
         
 class Bedroom(Room):
-    def __init__(self, name, bed, bathroom, drawer, table, tv):
-        self.name = name
-        self.bed = bed
-        self.bathroom = bathroom
-        self.drawer = drawer
-        self.table = table
-        self.tv = tv
+    def __init__(self):
 
 def main():
     #Testing purposes
