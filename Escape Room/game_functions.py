@@ -2,12 +2,18 @@
 ######    Imports  #########
 ############################
 
-from room import Bedroom
+from bedroom import Bedroom
 from game_io import print_house, print_welcome, input_name, print_intro, take_input
 from player import Player
+from random import randint
 
+
+############################
+####   Game functions  #####
+############################
 
 def game():
+    """Runs the escape room game"""
     while True:
         bedroom = construct_house()
         print_house()
@@ -20,11 +26,13 @@ def game():
         break
 
 def search_key(bedroom: Bedroom, choice):
+    """"""
     if choice == "a":
             #Choice bed
         pass
     elif choice == "b":
-            #Choice bedside table
+        #Choice bedside table
+        state = bedroom.search("bedside table")
         pass
     elif choice == "c":
             #Choice closet
@@ -37,6 +45,11 @@ def search_key(bedroom: Bedroom, choice):
 
 def construct_house():
     return Bedroom()
+
+def randomise_key_location():
+    number = randint(1,3)
+    if number == 1:
+        bedroom.bed = True
 
 
 def main():
