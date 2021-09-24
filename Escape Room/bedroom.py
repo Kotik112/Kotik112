@@ -4,7 +4,7 @@ class Bedroom(Room):
     def __init__(self):
         self._name = "Bedroom"
         self._bed = False
-        self._closet = False
+        self._closet = True
         self._side_table = False
 
     

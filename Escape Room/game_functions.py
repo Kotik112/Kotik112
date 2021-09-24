@@ -46,10 +46,14 @@ def search_key(bedroom: Bedroom, choice):
 def construct_house():
     return Bedroom()
 
-def randomise_key_location():
+def randomise_key_location(bedroom: Bedroom): #End-product use
     number = randint(1,3)
     if number == 1:
-        bedroom.bed = True
+        bedroom._bed = True
+    elif number == 2:
+        bedroom._closet = True
+    elif number == 3:
+        bedroom._side_table = True
 
 
 def main():
