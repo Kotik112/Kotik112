@@ -3,6 +3,7 @@
 ############################
 
 from random import randint
+from livingroom import LivingRoom
 
 class Room:
     def __init__(self, name) -> None:
@@ -13,19 +14,6 @@ class Room:
     def __repr__(self) -> str:
         #return f"Door: {self.door}\nWay out: {self.way_out}"
         pass
-
-
-
-    
-
-    
-                
-
-            
-        
-class Kitchen(Room):
-    def __innit__(self):
-        pass
     
 class Entrance(Room):
     def __innit__(self):
@@ -33,11 +21,7 @@ class Entrance(Room):
        
 
 def main():
-    #Testing purposes
-    living_room = LivingRoom("Living Room", "You find a bed and a locked closet.")
-    print(living_room)
-
-    #print(help(LivingRoom))
+    pass
 
 if __name__ == "__main__":
     main()
