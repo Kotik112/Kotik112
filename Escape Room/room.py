@@ -1,21 +1,36 @@
+############################
+######    Imports   ########
+############################
+
+from random import randint
+
 class Room:
     def __init__(self, name) -> None:
-        self.name = name
-        self.door = True
-        self.way_out = False
+        self._name = name
+        self._key_status = False   #False = player does not have key
+        self._way_out = False
 
     def __repr__(self) -> str:
-        return f"Door: {self.door}\nWay out: {self.way_out}"
+        #return f"Door: {self.door}\nWay out: {self.way_out}"
+        pass
 
-class LivingRoom(Room):
-    def __init__(self, name, description) -> None:
-        super().__init__(name)        #Inherits all variables and methods from Room
-        #Inget syfte, testar subclass variabel
-        self.description = description
+
+
+    
+
+    
+                
+
+            
         
-
-    def __repr__(self) -> str:
-        return f"Door: {self.door}\nWay out: {self.way_out}\nDescription: {self.description}"
+class Kitchen(Room):
+    def __innit__(self):
+        pass
+    
+class Entrance(Room):
+    def __innit__(self):
+        pass
+       
 
 def main():
     #Testing purposes
