@@ -1,5 +1,5 @@
 ############################
-######    Imports   ########
+######    Imports    #######
 ############################
 
 from random import randint
@@ -15,9 +15,6 @@ class Room:
         #return f"Door: {self.door}\nWay out: {self.way_out}"
         pass
     
-class Entrance(Room):
-    def __innit__(self):
-        pass
        
 
 def main():
