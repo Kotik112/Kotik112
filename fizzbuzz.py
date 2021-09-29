@@ -11,8 +11,6 @@ try:
         elif (i % 3) == 0:
             print("Fizz")
             continue
-        else:
-            print(f"{i}")
 
 except ValueError as e:
     print("The program strictly accepts integer inputs.")
