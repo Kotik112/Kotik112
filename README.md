@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Kotik112
 - 👀 I’m interested in IoT development, Programming, Microchip processors and everything therein.
-- 🌱 I’m currently learning Python and C.
+- 🌱 I’m currently learning Python and C/C++.
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
