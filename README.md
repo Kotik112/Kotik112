@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Kotik112
 - 👀 I’m interested in Embedded systems, IoT development, software development and everything therein.
-- 🌱 I’m currently learning Python and C/C++.
+- 🌱 I’m currently learning Python, C/C++ and Java.
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me Arman.Iqbal@yh.nackademin.se
 
