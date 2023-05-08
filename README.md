@@ -10,4 +10,4 @@ You can click the Preview link to take a look at your changes.
 --->
 ![Kotik's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kotik112&theme=great-gatsby)]
 
-![KOtik's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kotik112&theme=great-gatsby&&hide=html,scss,stylus,blade,jupyter%20notebook,css,shell,batchfile,dockerfile,typescript&theme=algolia&show_icons=true&&count_private=true)
+![Kotik's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kotik112&theme=great-gatsby&hide=html,scss,stylus,blade,jupyter%20notebook,css,shell,batchfile,dockerfile,typescript&theme=algolia&show_icons=true&&count_private=true)
