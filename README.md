@@ -8,6 +8,6 @@
 Kotik112/Kotik112 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-[[![Kotik's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kotik112)](https://github.com/anuraghazra/github-readme-stats&theme=great-gatsby)](https://github-readme-stats.vercel.app/api?username=Kotik112&theme=great-gatsby)
+[![Kotik's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kotik112)](https://github.com/anuraghazra/github-readme-stats&theme=great-gatsby)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kotik112&theme=highcontras&&hide=html,scss,stylus,blade,jupyter%20notebook,css,shell,batchfile,dockerfile,typescript&theme=algolia&show_icons=true&&count_private=true)
