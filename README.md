@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Kotik112
-- 👀 I’m interested in Embedded systems, Web development and backend development.
-- 🌱 I’m currently use Python, Java and Javascript to develop.
-- 💞️ I’m looking to collaborate on ...
+- 👀 I’m interested in Embedded systems and web development.
+- 🌱 I currently use Python, Java and Javascript to develop.
+- 💞️ I’m looking to collaborate on anything open source.
 - 📫 How to reach me Arman.Iqbal@yh.nackademin.se
 
 
