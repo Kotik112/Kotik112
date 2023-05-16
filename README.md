@@ -16,6 +16,6 @@ You can click the Preview link to take a look at your changes.
 <p align="center">
   <a href="https://github.com/Kotik112">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kotik112&theme=great-gatsby" />
-    <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kotik112&hide=html,scss,stylus,blade,css,shell,batchfile,dockerfile&show_icons=true&count_private=true&theme=great-gatsby" />
+    <img height="230em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kotik112&hide=html,scss,stylus,blade,css,shell,batchfile,dockerfile&show_icons=true&count_private=true&theme=great-gatsby" />
   </a>
 </p>
