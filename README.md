@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Kotik112, an aspiring software developer.
+- 👋 Hi, I’m @Kotik112, a software developer.
 - 👀 I’m interested in contributing to open source projects.
 - 📑 I currently use Java, Python and Javascript to develop.
 - 💫 Frameworks I am familiar with: Spring Boot, Django, Pygame and some React.
