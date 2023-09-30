@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Kotik112, a software developer.
 - 👀 I’m interested in contributing to open source projects.
-- 📑 I currently use Java, Python and Javascript to develop.
+- 📑 I currently use Java, Python and some Javascript to develop.
 - 💫 Frameworks I am familiar with: Spring Boot, Django, Pygame and some React.
-- 📧 How to reach me Arman.Iqbal@yh.nackademin.se
+- 📧 How to reach me armanoiqbal@gmail.com
 
 
 
